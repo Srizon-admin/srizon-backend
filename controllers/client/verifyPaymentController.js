@@ -8,8 +8,6 @@ dotenv.config();
 const Razorpay = require('razorpay');
 const e = require('cors');
 var instance = new Razorpay({
-    //key_id: process.env.KEY_ID,
-    //key_secret: process.env.KEY_SECRECT,
     'key_id': "rzp_test_4QxJ2ZJcCKwl8I",
     'key_secrect': "M9NmsM6MelTqHxmSashsnmDo"
 });

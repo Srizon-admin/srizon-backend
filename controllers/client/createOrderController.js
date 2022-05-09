@@ -7,8 +7,8 @@ const eventData = require('../../data/events/client');
 
 const Razorpay = require('razorpay');
 var instance = new Razorpay({
-    key_id: process.env.KEY_ID,
-    key_secret: process.env.KEY_SECRECT,
+    key_id: 'rzp_test_4QxJ2ZJcCKwl8I',
+    key_secret: 'M9NmsM6MelTqHxmSashsnmDo',
 });
 
 const createOrder = async (req,res,next) => {
