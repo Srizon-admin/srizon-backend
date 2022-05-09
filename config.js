@@ -1,5 +1,5 @@
 const dotenv = require('dotenv');
-const assert = require('assert');
+//const assert = require('assert');
 
 dotenv.config();
 
@@ -7,8 +7,8 @@ const {PORT,HOST,HOST_URL,SQL_USER,SQL_PASSWORD,SQL_DATABASE,SQL_SERVER} = proce
 
 const sqlEncrypt = process.env.ENCRYPT === "true";
 
-assert(PORT, 'PORT is Required');
-assert(HOST, 'HOST is Required');
+//assert(PORT, 'PORT is Required');
+//assert(HOST, 'HOST is Required');
 
 module.exports = {
     port : PORT,
