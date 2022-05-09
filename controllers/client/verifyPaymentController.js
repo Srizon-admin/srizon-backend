@@ -10,8 +10,8 @@ const e = require('cors');
 var instance = new Razorpay({
     //key_id: process.env.KEY_ID,
     //key_secret: process.env.KEY_SECRECT,
-    key_id: "rzp_test_4QxJ2ZJcCKwl8I",
-    key_secrect: "M9NmsM6MelTqHxmSashsnmDo"
+    'key_id': "rzp_test_4QxJ2ZJcCKwl8I",
+    'key_secrect': "M9NmsM6MelTqHxmSashsnmDo"
 });
 
 const verifyPayment = async (req,res,next) => {
