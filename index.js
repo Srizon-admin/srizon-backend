@@ -116,6 +116,6 @@ app.use('/api/admin',updatePaymentRoute.routes);
 app.use('/api/admin',updateDeliveryStatusRoute.routes);
 
 
-app.listen(config.port, ()=>{
+app.listen(config.port,condif.host, ()=>{
     console.log(`Example app listening at http://localhost:${config.port}`);
 });
