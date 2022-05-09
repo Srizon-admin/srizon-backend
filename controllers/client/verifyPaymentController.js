@@ -9,7 +9,7 @@ const Razorpay = require('razorpay');
 const e = require('cors');
 var instance = new Razorpay({
     'key_id': "rzp_test_4QxJ2ZJcCKwl8I",
-    'key_secrect': "M9NmsM6MelTqHxmSashsnmDo"
+    'key_secret': "M9NmsM6MelTqHxmSashsnmDo"
 });
 
 const verifyPayment = async (req,res,next) => {
